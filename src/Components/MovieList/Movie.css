@@ -1,0 +1,54 @@
+.image-container {
+   
+   background-color: #141414;
+   color:#141414;
+   display: flex;
+   flex-wrap: wrap; 
+}
+
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.card {
+   margin-left: 30px;
+   border-radius: 4px;
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+.movie__image {
+   height: 500px;
+}
+
+.flex__card {
+   background-color: rgb(14, 13, 13);
+   color: #f6cd61 ;
+   padding: 20px;
+   border-radius: 10px;
+   margin-top: 10px;
+   height:160px
+}
+
+.heading {
+   font-size: 17px;
+   font-weight: bolder;
+   padding: 5px;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+
+.paragraph {
+   padding: 5px;
+   color: #3da4ab ;
+}
+
+
+

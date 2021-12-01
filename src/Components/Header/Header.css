@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.col{ 
+    color: white;
+    font-weight: bolder;
+    border-radius: 2px;
+    width: 40em;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    
+}

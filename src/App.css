@@ -1,0 +1,61 @@
+
+body {
+	background: #141414;
+	color: #ffffff;
+}
+.movie-app > .rowe {
+	display: flex;
+	flex-wrap: wrap;
+	margin : 0px 100px;
+
+}
+
+.Star{
+	cursor: pointer;
+	transition: color 200ms;
+	margin: 12px 5px;
+	padding : 5px;
+	
+}
+input[type="radio"]{
+	display: none;
+}
+.AddMovie-h3{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    transform: translate(120px,-253px);
+	height:50px;
+	font-family: 'Pacifico', cursive;
+}
+.AddMovie-h2{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    transform: translate(6px,-253px);
+	height:50px;
+	font-family: 'Pacifico', cursive;
+}
+
+.add-modal{
+	background-color : #141414;	
+	color: #141414;
+	margin: 20px 240px;
+
+}
+.add-modal{
+    position: fixed;
+    inset: 0px;
+    background-color: rgb(24 24 24 / 75%);
+    max-width: 68%;
+	font-family: 'Pacifico', cursive;
+}
+.Add-btn{
+		font-family: 'Pacifico', cursive;
+		margin-left: 500px;
+		width: 120px;
+		height: 55px;
+		border-radius: 50px;
+		transform: translate(60px, -70px);
+	
+}
