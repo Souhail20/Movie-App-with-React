@@ -47,6 +47,7 @@ input[type="radio"]{
     position: fixed;
     inset: 0px;
     background-color: rgb(24 24 24 / 75%);
+	background-image: url('https://wallup.net/wp-content/uploads/2016/01/31221-Joker-Batman-The_Dark_Knight-Heath_Ledger-dark-black-white-movies.jpg');
     max-width: 68%;
 	font-family: 'Pacifico', cursive;
 }
@@ -56,6 +57,6 @@ input[type="radio"]{
 		width: 120px;
 		height: 55px;
 		border-radius: 50px;
-		transform: translate(60px, -70px);
+		transform: translate(-55px, -98px);;
 	
 }

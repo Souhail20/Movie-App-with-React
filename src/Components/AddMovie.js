@@ -19,7 +19,7 @@ const AddMovie = ({addMovie}) => {
     let newMovie ={
       Title:name,
       rating,
-      image,
+      Poster:image,
       description,
     };
     addMovie(newMovie)
@@ -71,7 +71,7 @@ const AddMovie = ({addMovie}) => {
             </InputGroup>
              <br />
              <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-               <Form.Label>Enter Movie Description</Form.Label>
+             <InputGroup.Text id="inputGroup-sizing-default">Enter Movie Description</InputGroup.Text>
                <Form.Control  as="textarea" rows={3} onChange ={(e) => setDescription(e.target.value)} />
              </Form.Group>      
       </Modal>
